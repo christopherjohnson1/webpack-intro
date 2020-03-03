@@ -1,3 +1,8 @@
 import '../styles/main.scss';
+import form from './components/form';
 
-console.error('this is weird');
+const init = () => {
+  form.displayForm();
+};
+
+init();
